@@ -30,7 +30,7 @@ class PageForm(forms.ModelForm):
 
         exclude = ('category',)
 
-        # fields = ('title', 'url', 'views')
+
 
     def clean(self):
         cleaned_data = self.cleaned_data
