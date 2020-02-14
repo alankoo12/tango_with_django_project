@@ -154,7 +154,7 @@ def user_login(request):
             print(f"Invalid login details: {username}, {password}")
             return HttpResponse("Invalid login details supplied.")
     else:
-        return render(request, 'rango/login.html')
+        return render(request, 'rango/login.html')j
 
 @login_required
 def restricted(request):
